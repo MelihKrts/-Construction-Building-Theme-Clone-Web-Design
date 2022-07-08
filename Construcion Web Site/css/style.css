@@ -1,0 +1,2464 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a 
+{
+	text-decoration: none;
+}
+img 
+{
+	max-width: 100%;
+	height:auto;
+}
+body
+{
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+}
+strong
+{
+	font-weight: bold;
+}
+.TopbarMain
+{
+	background-color: #232323;
+	line-height: 42px;
+}
+.TopbarContainer
+{
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.75);
+	margin: 0 auto;
+}
+
+.TopbarInfo:nth-child(2) {
+	padding-left: 15px;
+}
+
+.TopbarLeftInfo
+{
+	width: 100%; 
+	display: flex;
+}
+.TopbarInfo
+{
+	padding-left: 10px;
+	font-size: 13px;
+}
+
+.TopbarInfo span 
+{
+	padding-left: 5px;
+}
+.TopbarSocialBox i {
+	font-size: 12px;
+}
+.TopbarInfo a 
+{
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.toggle-button 
+{
+	position: absolute;
+	top: 5.75rem;
+	right: 3rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-button .bar 
+{
+	height: 3px;
+	width: 100%;
+	background-color: #000;
+	border-radius: 10px;
+}
+
+.TopbarSocial
+{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 40px;
+}
+.TopbarSocialBox
+{
+	width: 24px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin-left: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.44);
+	color: rgba(255, 255, 255, 0.75);
+	transition: all 0.2s ease-in-out;
+}
+
+.twitter:hover
+{
+	background-color: #2cbfd9;
+	border: 1px solid #2cbfd9;
+}
+
+.TopbarSocialBox:hover
+{
+	color: #fff;
+}
+
+.youtube:hover
+{
+	background-color: #ff0000;
+	border: 1px solid #ff0000;
+}
+
+.facebook:hover
+{
+	background-color: #4583bc;
+	border: 1px solid #4583bc;
+}
+
+.linkedin:hover
+{
+	background-color: #0b84b3;
+	border: 1px solid #0b84b3;
+}
+
+.rss:hover
+{
+	background-color: #fb7200;
+	border: 1px solid #fb7200;
+}
+
+.StickyHeader
+{
+	width: 100%;
+	background-color: #ffffff;
+	height: 120px;
+	box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+}
+
+.StickyContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.StickyContainer nav
+{
+	width: 100%;
+}
+
+.Header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.HeaderSpecial
+{
+	color: #f7b71e !important;
+}
+
+.Header ul li 
+{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 10px;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.IconsBox:nth-child(1):hover
+{
+	background-color: #f7b71e;
+}
+.Header a 
+{
+	color: #202020;
+}
+
+.HeaderLogo
+{
+	width: 20%;
+	margin: auto;
+}
+
+.IconsBox
+{
+	background-color: #202020;
+	height: 33px;
+	width: 33px;
+	line-height: 33px;
+	border-radius: 50%;
+	text-align: center;
+	transition: all .3s ease-in-out;
+	margin-left: 15px;
+}
+
+.Icons
+{
+	width: 10%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.IconsBox:nth-child(2) {
+	background-color: #f7b71e;
+}
+
+.IconsBox i 
+{
+	color: #fff;
+}
+
+.SliderArea
+{
+	width: 100%;
+}
+
+
+.Icons i 
+{
+	color: #fff;
+}
+
+.SliderCarousel
+{
+	width: 100%;
+}
+
+.SliderImageShow
+{
+	width: 100%;
+	height: 465px;
+	background-position: center center, center center; 
+	background-size: 100%, 0 0;
+	background-repeat: no-repeat;
+}
+
+.ImageSliderContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.ImageSliderContentCenter
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10%;
+	text-align: center;
+	max-width: 100%;
+	flex-direction: column;
+}
+.FirstButton
+{
+	padding: 15px 30px;
+	font-weight: 700;
+	font-size: 13px;
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	letter-spacing: 2px;
+	background-color: #fff;
+	color: #333;
+	border-radius: 3px;
+	border: none;
+}
+.second 
+{
+	background-color: #f7b71e;
+	margin-left: 20px;
+	color: #fff;
+}
+
+.third
+{
+	background-color: #1b1b1b;
+	color: #fff;
+}
+
+.third:hover{
+	background-color: #f7b71e !important;
+}
+
+.black 
+{
+	color: #202020 !important;
+}
+
+.PositionSpan
+{
+	margin: 20px 11px;
+}
+
+.SpanText
+{
+	font-weight: 500;
+	font-size: 21px;
+	color: #686868;
+	font-family: Oxygen;
+	line-height: 30px;
+}
+
+.FirstButton:hover 
+{
+	background-color: #202020;
+	color: #fff;
+}
+
+
+.BorderSpan
+{
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-size: 66px;
+	font-family: Arimo;
+	color: #fff;
+	padding: 5px;
+	display: inline-block;
+}
+
+.ImageSliderPosition
+{
+	position: absolute;
+	top: 50%;
+	text-align: left;
+	left: 50%;
+	transform: translate(-10%, -50%);
+}
+
+.SpanArea
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.spanBackground
+{
+	background-color: rgba(0,0,0,0.75);
+}
+
+.Minitext
+{
+	color: rgb(255, 255, 255);
+	font-size: 45px;
+	font-family: Oxygen;
+	font-weight: 400;
+	margin-top: 10px;
+	margin: 15px;
+
+}
+.ImageMultipleContainer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+
+}
+.MiniParagraph
+{
+	font-weight: 300;
+	font-size: 28px;
+	color: #ffffff;
+}
+
+.border 
+{
+	border-width: 1px 0px 1px 0px;
+	border-color: rgb(255,255,255);
+	border-style: solid;
+}
+
+
+.color
+{
+	color: #f7b71e;
+}
+
+.ImageRight
+{
+	position: absolute; 
+	right: 97px; 
+	top: 1px; 
+}
+
+.Information
+{
+	width: 100%;
+	margin-top: 80px;
+	background-color: #ffffff;
+}
+
+.InformationContainer
+{
+	display: flex;
+	margin: 0px auto;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.InformationLeft
+{
+	width: 50%;
+}
+.InformationTitle
+{
+	width: 100%;
+}
+.InformationTitle h6 
+{
+	font-size: 16px;
+	color: #7e7e7e;
+	line-height: 18px;
+	font-family: Arimo;
+	font-weight: 400;
+	font-style: normal;
+	margin-bottom: 5px;
+}
+
+.InformationTitle h2 
+{
+	font-size: 40px;
+	color: #202020;
+	line-height: 42px;
+	font-family: Arimo;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 15px;
+}
+
+.InformationContent
+{
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.InformationContent p 
+{
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	font-style: normal;
+	color: #6d6d6d;
+	font-size: 14px;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+.InformationImageGallery
+{
+	width: 100%;
+	display: flex;
+	margin-bottom: 30px;
+}
+.InformationImage
+{
+	width: 50%;
+}
+.InformationImage:nth-child(2)
+{
+	margin-left: 15px;
+}
+.InformationRight
+{
+	width: 50%;
+	margin-left: 40px;
+}
+.InfoBox
+{
+	width: 100%;
+	display: flex;
+	margin: 0 0px 45px;
+}
+.IconBox
+{
+	width: 25%;
+	border-radius: 50%;
+	border: 2px solid #EBEBEB;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.InfoBoxContent
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.IconBox i 
+{
+	color: #F7B71E;
+	font-size: 42px;
+}
+.InfoBoxTitle
+{
+	width: 100%;
+}
+
+.InfoBoxTitle h2 
+{
+	font-size: 19px;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	margin-bottom: 6px;
+	text-align: left;
+	padding-left: 25px;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+
+.InfoBoxContent p 
+{
+	text-align: justify;
+	padding-left: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+	font-style: normal;
+	color: #6d6d6d;
+}
+
+.Projects
+{
+	background: url(../img/sectionImage.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.ProjectsContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 65px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.ProjectsTitle
+{
+	width: 100%;
+	margin-bottom: 15px;	
+}
+.ProjectsTitle h2 
+{
+	color: #fff;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 28px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.ProjectsContent
+{
+	max-width: 50%;
+}
+.ProjectsContent h4 
+{
+	font-family: Lato,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 20px;
+	font-weight: 300;
+	font-style: normal;
+	color: #999999;
+	font-size: 18px;
+	text-align: center;
+}
+.PortfolyoContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.PortfolyoBox
+{
+	width: 33.3%;
+	margin: 30px 15px 20px;
+	margin-bottom: 30px;
+}
+.PortfolyoContent
+{
+	width: 100%;
+	background-color: #f5f5f5;
+	text-align: center;
+	margin-top: -5px;
+	position: relative;
+	padding: 18px 15px;
+}
+.PortfolyoBoxTitle
+{
+	width: 100%;
+}
+
+.PortfolyoBoxTitle h4 
+{
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 20px;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 0px;
+	margin-bottom: 6px;
+	font-size: 19px;
+	color: #2d2d2d;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+.PortfolyoBoxTitle h4:hover
+{
+	color: #f7b71e;
+	cursor: pointer;
+}
+
+.PortfolyoBoxContent
+{
+	width: 100%;
+}
+.PortfolyoBoxContent p 
+{
+	margin-bottom: 0px;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #999999;
+}
+.PortfolyoButtonContainer
+{
+	max-width: 1200px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin: 0 auto;
+}
+.PortfolyoButton
+{
+	width: 18%;
+	background-color: #f7b71e;
+	color: #fff;
+	display: inline-flex;
+	padding: 20px;
+	border-radius: 3px;
+	margin: 40px 0px 70px;
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1vw;
+	border: none;
+	text-align: center;
+	transition: all .2s ease-in-out;
+
+}
+.ButtonIcon
+{
+	width: 10%;
+}
+.ButtonText
+{
+	width: 90%;
+	margin-left: 15px;
+	margin-top: 2px;
+}
+.ButtonIcon i 
+{
+	font-size: 20px;
+}
+.PortfolyoButton:hover
+{
+	background-color: #ffffff;
+	color: #2d2d2d;
+	cursor: pointer;
+}
+.MiniTextArea
+{
+	width: 100%;
+	background-color: #f7b71e;
+	padding: 20px 0px 20px 0px;
+}
+.MiniTextContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.MiniTextCuff
+{
+	width: 75%;
+	color: #fff;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 30px;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.4vw;
+	margin: 25px 0px 15px;
+}
+.MiniTextCuff h2 
+{
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 30px;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 25px;
+}
+.MiniTextButton
+{
+	width: 17%;
+	color: #2d2d2d;
+	background-color: #FFF;
+	border-radius: 3px;
+	font-size: 1em;
+	border: 1px solid transparent;
+	transition: all .2s ease-in-out;
+	padding: 14px 20px;
+	display: inline-flex;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+}
+.MiniTextButton:hover
+{
+	background-color: #202020;
+	color: #fff;
+}
+.MiniText span 
+{
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1vw;
+}
+
+.MiniIcon
+{
+	width: 10%;
+}
+.MiniText
+{
+	width: 80%;
+}
+.TeamsArea
+{
+	width: 100%;
+}
+.TeamsContainer
+{
+	max-width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	flex-direction: column;
+}
+.TeamsTitle
+{
+	width: 100%;
+	margin: 50px 0px 15px 0px;
+}
+.TeamsTitle h2 
+{
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-style: normal;
+	color: #202020;
+	font-size: 28px;
+	text-align: center;
+}
+.TeamsParagraph
+{
+	width: 50%;
+	margin-bottom: 30px;
+}
+.TeamsParagraph p 
+{
+	font-family: Lato,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 20px;
+	font-weight: 300;
+	font-style: normal;
+	color: #999999;
+	font-size: 18px;
+	text-align: center;
+}
+.TeamsBoxContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.TeamsBox
+{
+	width: 20%;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+}
+.TeamsBox img 
+{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.TeamsMemberInfo
+{
+	width: 100%;
+	background-color: #ecf0f1;
+	padding: 15px 15px 6px 15px;
+	transition: all 0.4s ease-in-out;
+	text-align: center;
+	margin-top: -5px;
+}
+.TeamsMemberTitle
+{
+	width: 100%;
+	transition: all 0.4s ease-in-out;
+}
+.TeamsMemberTitle h3 
+{
+	color: #2d2d2d;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 26px;
+	font-weight: bold;
+	font-style: normal;
+	color: #202020;
+	font-size: 16px;
+	transition: all 0.4s ease-in-out;
+}
+.TeamsMemberAuthority
+{
+	width: 100%;
+	transition: all 0.4s ease-in-out;
+}
+.TeamsMemberAuthority h4
+{
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 20px;
+	font-weight: 400;
+	color: #909090;
+	font-size: 13px;
+}
+.TeamsMemberSocialMedia
+{
+	width: 100%;
+	background-color: #f5f5f5;
+	transition: all 0.4s ease-in-out;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.TeamsMemberSocialMediaList
+{
+	width: 100%;
+}
+.TeamsMemberSocialMediaList ul
+{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.TeamsMemberSocialMediaList li 
+{
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.slick-slide {
+	margin: 0 15px;
+}
+
+/* the parent */
+.slick-list {
+	margin: 0 -15px;
+}
+
+.AdvertisingArea
+{
+	width: 100%;
+	margin-top: 60px;
+}
+
+.BlogBoxSpecialImage  .slick-list .slick-slide
+{
+	margin: 0;
+}
+.BlogBoxSpecialImage  .slick-dots li button
+{
+	cursor: pointer;
+	border: 1px solid #fff;
+	-webkit-border-radius: 11px;
+	width: 11px !important;
+	height: 11px !important;
+}
+
+.BlogBoxSpecialImage  .slick-dots li button:before
+{
+	content: '';
+}
+.BlogBoxSpecialImage  .slick-dots li.slick-active button
+{
+	background: #f7b71e;
+	border: none;
+}
+.BlogBoxSpecialImage  .slick-dotted.slick-slider
+{
+	margin-bottom: 0px;
+}
+
+.BlogBoxSpecialImage  .slick-dots
+{
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+	top: 14px;
+	right: 10px;
+	margin: 0;
+	width: auto;
+	height: auto;
+	bottom: inherit;
+}
+
+.AdvertisingContainer
+{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.AdversitingBox
+{
+	width: 34%;
+	height: 510px;
+	position: relative;
+}
+.AdversitingContainer
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+}
+.AdversitingTitle
+{
+	line-height: 44px;
+	text-align: left;
+	font-family: Arimo;
+	font-weight: 700;
+	font-style: normal;
+}
+.AdversitingTitle h2 
+{
+
+	font-size: 30px;
+	line-height: 44px;
+	text-align: left;
+	font-family: Arimo;
+	font-weight: 700;
+	font-style: normal;
+
+}
+.AdversitingList ul 
+{
+	list-style: none;
+}
+.AdversitingList li 
+{
+	margin-bottom: 10px;
+	margin: 16px 0;
+	font-size: 14px;
+}
+.AdversitingList  i 
+{
+	margin-left: 0px;
+	margin-right: 8px;
+}
+.AdversitingButton
+{
+	background-color: #FFF;
+	border-radius: 3px;
+	font-size: 1em;
+	text-align: center;
+	vertical-align: middle;
+	color: #2d2d2d;
+	justify-content: center;
+	align-items: center;
+	display: inline-flex;
+	width: 60%;
+	cursor: pointer;
+	padding: 14px 20px;
+	transition: all .2s ease-in-out;
+}
+.AdversitingButton span
+{
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+}
+.ButtonBeforeSpace
+{
+	height: 20px;
+}
+.AdversitingButton:hover
+{
+	background-color: #202020;
+	color: #fff;
+}
+.AdversitingParagraph
+{
+	margin-bottom: 35px;
+}
+
+.AdversitingParagraph p 
+{
+	color: #6d6d6d;
+}
+.AdversitingAphorism
+{
+	color: #6d6d6d;
+}
+.AdversitingAphorism strong 
+{
+	font-weight: bold;
+}
+.NumberWithInformationArea
+{
+	background-image: url(../img/sectionImage2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.NumberInformation
+{
+	background: rgba(0, 0, 0, 0.83);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.NumberInformationContainer
+{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	
+}
+.NumberInformationBox
+{
+	width: 33.3%;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	margin-top: 80px;
+}
+.NumberBefore:before
+{
+	content: '';
+	width: 15%;
+	height: 2px;
+	background-color: rgba(0, 0, 0, 0.70);
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.NumberInformationIcon i 
+{
+	font-size: 42px;
+	color: #fff;
+}
+.NumberInformationContent
+{
+	color: #fff;
+}
+
+.spanfor
+{
+	font-size: 4vw;
+}
+.NumberInformationContent span 
+{
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	font-weight: 600;
+	margin-bottom: 35px;
+	line-height: 50px;
+	display: block;
+	color: #fff;
+	background-color: transparent;
+}
+
+
+.NumberInformationIcon
+{
+	margin-bottom: 30px;
+}
+
+.NumberInformationContent h3:before
+{
+	content: '';
+	width: 15%;
+	height: 2px;
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.SpanTitle
+{
+	padding: 15px 4px 0px 4px;
+	margin-bottom: 0;
+	bottom: -11px;
+	width: 100%;
+	color: #6d6d6d;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.BlogBoxSpecialImage  img
+{
+
+}
+.BlogBoxImage img
+{
+
+}
+.BlogArea
+{
+	width: 100%;
+	color: rgba(40, 40, 40, 0.76);
+	background: #f5f5f5;
+}
+.BlogContainer
+{
+	margin: 0px auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.BlogContentTitle 
+{
+	margin-top: 50px;
+}
+
+.BlogContentTitle h2
+{
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-style: normal;
+	color: #282828;
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.BlogContentTitle h4
+{
+	font-family: Lato,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 20px;
+	font-weight: 300;
+	font-style: normal;
+	color: rgba(40, 40, 40, 0.76);
+	font-size: 18px;
+	margin: 0 auto;
+	max-width: 600px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.BlogBoxContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.BlogBoxSpecialImage 
+{
+	max-width: 100%;
+	height: auto;
+}
+.BlogBox
+{
+	width: 33.3%;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+}
+.BlogBoxContent
+{
+	width: 100%;
+	background-color: #fff;
+	text-align: left;
+	padding: 34px 27px 20px 27px;
+	position: relative;
+	margin-top: -5px;
+}
+.BlogIconBox
+{
+	border-color: #fff;
+	background-color: #f7b71e;
+	text-align: center;
+	width: 51px;
+	height: 51px;
+	border-radius: 50%;
+	border: 4px solid #f5f5f5;
+	line-height: 41px;
+	margin-top: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	color: #fff;
+	top: -46px;
+	z-index: 1;
+}
+.BlogIconBox i 
+{
+	color: #fff;
+}
+.ContentTitle
+{
+	color: #282828;
+	margin-bottom: 5px;
+	font-weight: 600;
+	font-size: 18px;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 20px;
+	font-style: normal;
+	transition: all 0.2s ease-in-out;
+}
+.Date
+{
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 26px;
+	font-size: 13px;
+	color: #999;
+	position: relative;
+}
+.Time 
+{
+	margin-left: 5px;
+}
+.Date:after
+{
+	position: absolute;
+	right: -10px;
+	top: -2px;
+	width: 0px;
+	height: 0px;
+	content: " • ";
+	font-size: 17px;
+}
+.UserPost
+{
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 5px;
+}
+.UserPost i 
+{
+	font-size: 13px;
+	color: #999;
+}
+.user 
+{
+	font-size: 14px;
+	color: #969696;
+	margin-left: 5px;
+}
+.BlogContent
+{
+	color: #6d6d6d;
+	padding-top: 10px;
+	position: relative;
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+}
+.ReadMore 
+{
+	position: absolute;
+	left: 0px;
+	bottom: 2px;
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+	color: #2d2d2d;
+	font-size: 13px;
+}
+.Line 
+{
+	border-top: 1px solid #e2e2e2;
+	min-height: 36px;
+	margin-top: 17px;
+	color: #6d6d6d;
+	text-align: left;
+}
+.ReadMoreIcon
+{
+	padding-top: 15px;
+	text-align: right;
+}
+.VideoArea
+{
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.VideoArea iframe 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.BlogBoxContainer .slick-prev, .slick-next {
+	height: 31px;
+	width: 31px;
+	line-height: 30px;
+	border-radius: 31px;
+	border: 1px solid #444;
+	background: none;
+	padding: 0px;
+	margin: 0;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+	font-size: 16px;
+}
+.BlogBoxContainer .slick-prev:before
+{
+	content: "\f100";
+	font-family: 'FontAwesome';
+	font-size: 16px;
+	color: #3d3d3d;
+}
+.BlogBoxContainer .slick-next:before
+{
+	content: "\f101";
+	font-family: 'FontAwesome';
+	font-size: 16px;
+	color: #3d3d3d;
+}
+.BlogBoxContainer .slick-arrow {
+	font-size: 0 !important;
+}
+
+.BlogBoxContainer .slick-prev {
+	left: -50px;
+	padding: 5px;
+}
+
+.BlogBoxContainer .slick-next {
+	right: -50px;
+	padding: 5px !important;
+}
+.BlogBoxContainer  .slick-next {
+	height: 31px;
+	width: 31px;
+	line-height: 30px;
+	border-radius: 31px;
+	border: 1px solid #444;
+	background: none;
+	padding: 0px;
+	margin: 0;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+	font-size: 16px;
+}
+
+.BlogBoxContainer > .slick-prev:hover 
+{
+	color: #fff !important;
+}
+
+.slick-prev .slick-arrow
+{
+	color: #3d3d3d;
+}
+
+.TeamsBox:hover .TeamsMemberInfo
+{
+	background-color: rgba(32, 32, 32, 0.80);
+}
+.TeamsBox:hover .TeamsMemberAuthority h4
+{
+	color: rgba(255, 255, 255, 0.90);
+}
+.TeamsBox:hover .TeamsMemberSocialMedia
+{
+	background-color: #f7b71e;
+	color: rgba(255, 255, 255, 0.90);
+}
+.TeamsBox:hover .TeamsMemberTitle h3
+{
+	color: rgba(255, 255, 255, 0.90);
+}
+.BlogBox:hover .ContentTitle
+{
+	color: #f7b71e;
+}
+.BlogButtonContainer
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 20px 0px 60px;
+
+}
+
+.BlogViewPost
+{
+	background-color: #f7b71e;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 1em;
+	padding: 14px 20px;
+	transition: all .2s ease-in-out;
+	display: inline-block;
+	border: 1px solid transparent;
+	cursor: pointer;
+	position: relative;
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+}
+.BlogViewPost:hover
+{
+	background-color: #202020;
+}
+.white 
+{
+	color: #ffffff;
+	font-size: 21px;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+.ImageFirstResponse
+{
+	position: absolute;
+	visibility: visible;
+	left: 6px;
+	top: 1px;
+	z-index: 5;
+}
+.ImageSliderPosition
+{
+	top: 200%;	
+}
+
+/*.response
+{
+	margin-top: -15px;
+	padding: 3px 1px !important;
+}*/
+
+
+.WhatWeDo
+{
+	width: 100%;
+}
+.WhatWeDoContentContainer
+{
+	display: flex;
+	margin:40px auto;
+	justify-content: space-between;
+	max-width: 1200px;
+}
+.WeDoInfoArea
+{
+	width: 66.66666667%;
+	margin-right: 50px;
+}
+.WeDoTextContent
+{
+	width: 100%;
+}
+.WeDoTitle h2 
+{
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-style: normal;
+	color: #202020;
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+
+.WeDoTitle h4 
+{
+	font-family: Lato,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 20px;
+	font-weight: 300;
+	font-style: normal;
+	color: #999999;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.WeDoButtonContainer
+{
+	display: flex;
+	margin: 40px auto 10px;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	width: 100%;
+}
+.ButtonArea
+{
+
+}
+.ActiveButton
+{
+	color: #2d2d2d;
+	border: solid transparent;
+	border-width: 1px;
+	border-color: #e6e6e6;
+	background-color: #fff;
+	height: 63px;
+	border-radius: 5px;
+	margin-left: 5px;
+	transition: background .2s ease-in-out,color .2s ease-in-out,border .2s ease-in-out;
+}
+.ActiveButton span 
+{
+	color: #2d2d2d;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 0 64px;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	transition: background .2s ease-in-out,color .2s ease-in-out,border .2s ease-in-out;
+}
+.ActiveButton:hover
+{
+	color: #f7b71e !important;
+	
+}
+
+.ButtonArea button:hover {
+	cursor: pointer;
+}
+
+.ActiveButton span:hover {
+	color: #f7b71e !important;
+}
+
+.Active span
+{
+	color: #f7b71e !important;
+}
+.WeDoContentContainer
+{
+	display: flex;
+	margin: 0px auto;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	width: 100%;
+	position: relative;
+}
+
+.WeDoContentBoxArea
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.WeDoContentBox
+{
+	width: 47%;
+	display: flex;
+	float: left;
+	margin: 30px auto 0px;
+}
+
+.WeDoContentIconBox
+{
+	width: 5em;
+	height: 5em;
+	border-radius: 5px;
+	position: relative;
+	background-color: #f7b71e;
+}
+
+.ContentIcon
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	font-size: 2.50em;
+	transform: translate(-50%,-50%);
+}
+
+.WeDoContentArea
+{
+	padding-left: 1.3em;
+	width: 80%;
+	margin-top: -5px;
+}
+
+.WeDoLastDiv 
+{
+	width: 33.33333333%;
+}
+
+.WeDoContentTitle
+{
+	width: 100%;
+}
+.WeDoContentTitle h2 
+{
+	font-size: 19px;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	margin-bottom: 6px;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 30px;
+	color: #202020;
+}
+.Paragraph
+{
+	text-align: justify;
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	font-size: 14px;
+	font-style: normal;
+	color: #6d6d6d;
+}
+.ContentParagraph
+{
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	font-style: normal;
+	color: #6d6d6d;
+	font-size: 14px;
+}
+.WeDoContentParagprah
+{
+	margin-bottom: 1em;
+}
+.WeDoContentParagprah span
+{
+	color: #2d2d2d;
+	margin-top: 10px;
+	font-size: 0.9em;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+	display: inline-block;
+}
+.WeDoContentParagprah span:hover 
+{
+	color: #f7b71e;
+}
+.content:not(:first-child) {
+	display: none;
+}
+.visible {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.5s linear;
+}
+
+.hidden {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.WeDoMiniBoxArea
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.WeDoMiniImageBox
+{
+	width: 66.66666667%;
+	margin: 15px 15px;
+
+}
+.WeDoMiniBoxContent
+{
+	width: 33.33333333%;
+	margin-left: 5px;
+	margin-right: 30px;
+	color: #6d6d6d;
+	text-align: left;
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	font-size: 14px;
+	font-style: normal;
+	color: #6d6d6d;
+}
+.WeDoMiniBoxContent h4
+{
+	text-align: left;
+	font-family:Arimo;
+	font-weight:700;
+	font-style:normal;
+	line-height: 20px;
+	margin: 15px auto;
+	color: #202020;
+	font-size: 18px;
+}
+
+.WeDoMiniBoxContent span 
+{
+	background-color: #f7b71e;
+	border-radius: 5px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	font-weight: normal;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	font-size: 34px;
+	margin: 7px 8px -5px 0;
+}
+.WeDoMiniBoxContent strong
+{
+	font-weight: bold;
+}
+.WeDoMiniImageBox img
+{
+	height: 100%;
+}
+.WeDoContentBox:nth-child(2),
+.WeDoContentBox:nth-child(4)
+{
+	margin-left: 30px;
+}
+.WeDoBigArea
+{
+	width: 100%;
+}
+.WeDoBigContentBox
+{
+	width: 100%;
+}
+.WeDoBigContentBox h4 
+{
+	text-align: left;
+	font-family: Arimo;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 20px;
+	margin: 15px auto;
+	color: #202020;
+	font-size: 18px;
+}
+.BigContent
+{
+	width: 100%;
+	text-align: justify;
+}
+.special
+{
+	background-color: #f7b71e;
+	border-radius: 5px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	font-weight: normal;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	font-size: 34px;
+	margin: 7px 8px -5px 0;
+}
+.BigContentContainer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto;
+}
+.BigContent-col-sm-6
+{
+	width: 50%;
+}
+.BigContent-col-sm-6 ul 
+{
+	list-style: none;
+}
+.BigContent-col-sm-6 li 
+{
+	text-align: justify;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	font-size: 14px;
+	font-style: normal;
+	color: #6d6d6d;
+}
+.BigContent-col-sm-6 i 
+{
+	color: #f7b71e;
+}
+.BigContent-col-sm-6:nth-child(2)
+{
+	margin-left: 50px;
+}
+.BigContentSpecialSpan
+{
+	margin-left: 9px;
+}
+.ChooseUsArea
+{
+	width: 100%;
+}
+
+.BlogBoxSpecialImageSecond
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.BlogBoxSpecialImageSecond  .slick-dots li button
+{
+	cursor: pointer;
+	border: 1px solid #fff;
+	-webkit-border-radius: 11px;
+	width: 11px !important;
+	height: 11px !important;
+}
+
+.BlogBoxSpecialImageSecond  .slick-dots li button:before
+{
+	content: '';
+}
+.BlogBoxSpecialImageSecond  .slick-dots li.slick-active button
+{
+	background: #f7b71e;
+	border: none;
+}
+.BlogBoxSpecialImageSecond  .slick-dotted.slick-slider
+{
+	margin-bottom: 0px;
+}
+
+.BlogBoxSpecialImageSecond  .slick-dots
+{
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+	top: 14px;
+	right: 10px;
+	margin: 0;
+	width: auto;
+	height: auto;
+	bottom: inherit;
+}
+
+.BlogBoxSpecialImageSecond .slick-slide
+{
+	margin: 0;
+}
+.WeDoImageBottom
+{
+	margin-top: 10px;
+}
+.WeDoImageBottom span 
+{
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	line-height: normal;
+	font-size: 0.9em;
+	color: #2d2d2d;
+}
+.WeDoImageBottom span:hover 
+{
+	color: #f7b71e;
+}
+.BlogBoxParagraph
+{
+	text-align: justify; 
+	margin-bottom: 15px;
+}
+.WhatClientSayArea
+{
+	background-image: url(../img/sectionImage3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background 
+{
+	width: 100%;
+	position: relative;
+}
+.background-color
+{
+	background: rgba(0, 0, 0, 0.83);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.ClientContainer
+{
+	position: relative;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.Position 
+{
+	position: relative;
+}
+.ClientTitle
+{
+	color: #fff;
+	padding: 100px 0px 50px;
+}
+.ClientTitle h2 
+{
+	color: #fff;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 28px;
+}
+.ClientImg img
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.ClientName 
+{
+	color: #f7b71e;
+	padding-bottom: 5px;
+	margin-top: 6px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.ClientAppellation
+{
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 14px;
+	padding-top: 0px;
+	font-style: italic;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.Quotation
+{
+	color: #fff;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 22px;
+	font-size: 16px;
+	text-align: center;
+	margin: 10px 0 30px 0;
+	width: 80%;
+	display: inline-block;
+}
+.ClientArea .slick-dots li button
+{
+	width: 12px;
+	height: 12px;
+	margin: 10px 8px 5px 0;
+	background: #535353;
+	border-radius: 12px;
+}
+.ClientArea .slick-dots li.slick-active button
+{
+	background-color: #f7b71e;
+}
+.ClientArea .slick-dots li button:before
+{
+	content: '';
+}
+.ClientArea .slick-dots li button:hover 
+{
+	background-color: #f7b71e;
+}
+.ClientImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ClientArea.slick-initialized.slick-slider.slick-dotted {
+	margin-bottom: 0px;
+}
+.ClientBox {
+	margin-bottom: 50px;
+}
+.ClientArea .slick-dots
+{
+	bottom: 45px;
+}
+
+.ClientArea .slick-track
+{
+	cursor: url(../img/grab1.png), auto;
+}
+.ClientArea .slick-track:active {
+	cursor: url('../img/grabbing1.png'), auto;
+}
+.BrandImageArea
+{
+	width: 100%;
+}
+.BrandContainer
+{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.BrandBox 
+{
+	width: 20%;
+	margin: 40px 35px 40px;
+	padding-top: 40px;
+	cursor: pointer;
+}
+.BrandBox img
+{
+	transition: all .2s ease-in-out;
+}
+
+
+
+.BrandBox img:hover {
+	opacity: 0.7;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	z-index: 9999999;
+}
+
+.parallax {
+	height: 0vh;
+	overflow: hidden;
+	-webkit-perspective: 300px;
+	perspective: 300px;
+}
+.ParallaxTitle h2
+{
+	text-align: center;
+	font-size: 29px;
+	line-height: 45px;
+	font-family: Arimo;
+	font-weight: 700;
+	font-style: normal;
+}
+.parallax__group {
+	position: relative;
+	height: 0vh;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.parallax__layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.parallax__layer--fore {
+	-webkit-transform: translateZ(90px) scale(.7);
+	transform: translateZ(90px) scale(.7);
+	z-index: 1;
+}
+
+.parallax__layer--base {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	z-index: 4;
+}
+
+.parallax__layer--back {
+	-webkit-transform: translateZ(-300px) scale(2);
+	transform: translateZ(-300px) scale(2);
+	z-index: 3;
+}
+
+.parallax__layer--deep {
+	-webkit-transform: translateZ(-600px) scale(3);
+	transform: translateZ(-600px) scale(3);
+	z-index: 2;
+}
+
+.parallax__group {
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+
+.Parallax 
+{
+	width: 100%;
+	background: url(../img/chooseImage2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 99999;
+}
+
+.ParallaxContainer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 1200px;
+	z-index: 2;
+	position: relative;
+	padding-top: 50px;
+	flex-direction: column;
+	color: #fff;
+	z-index: 9999999;
+}
+.ParallaxButton
+{
+	color: #2d2d2d;
+	background-color: #FFF;
+	border-radius: 3px;
+	font-size: 1em;
+	padding: 13px 28px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+.ParallaxButton span 
+{
+	font-family: Montserrat,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.ParallaxButton:hover 
+{
+	color: #fff;
+	background-color: #202020;
+}
+.ParallaxBackground
+{
+	background-color: rgba( 247,183,30 , 0.80);
+	position: absolute;
+	top: 0;
+	z-index: 9999999 !important;
+	left: 0;
+	bottom: 0;
+	height: auto;
+	right: 0;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.SiteEndArea
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 0;
+}
+.Footer 
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center bottom;
+	background-image: url(../img/footer.png);
+}
+.FooterBackground 
+{
+	background-color: rgba(12,12,12,0.95);
+}
+.FooterContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.FooterBox
+{
+	width: 25%;
+}
+.FooterContent
+{
+	margin: 55px 0 50px;
+	color: rgba(255, 255, 255, 0.52);
+}
+.Logo {
+	margin-bottom: 25px;
+}
+
+.Text {
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	width: 100%;
+	font-style: normal;
+	color: #6d6d6d;
+	text-align: justify;
+	color: rgba(255, 255, 255, 0.52);
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.MainArea
+{
+	position: relative;
+	z-index: 1;
+	margin-bottom: 480px;
+	background-color: #ffffff;
+}
+.MainArea .SiteEndArea
+{
+	z-index: 1;
+}
+.Title 
+{
+	color: rgba(255, 255, 255, 1);
+	margin: 0 0 25px;
+	font-family: Arimo,'Trebuchet MS', Helvetica, sans-serif;
+	text-transform: uppercase;
+	line-height: 20px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 18px;
+}
+.Text ul li 
+{
+	list-style: none;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 13px 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.07);
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	font-style: normal;
+	color: #6d6d6d;
+	font-size: 14px;
+}
+.Text i 
+{
+	color: #f7b71e;
+}
+.List 
+{
+	padding-left: 18px;
+	transition: all .3s ease-in-out;
+	color: rgba(255, 255, 255, 0.75);
+}
+.List:hover 
+{
+	color: #f7b71e;
+	cursor: pointer;
+}
+.Text li:nth-child(1)
+{
+	border-top: none;
+}
+.address
+{
+	color: rgba(255, 255, 255, 0.28);
+}
+.Icon
+{
+	color: rgba(255, 255, 255, 0.28);
+}
+.address i 
+{
+	color: rgba(255, 255, 255, 0.28);
+}
+.indent
+{
+	text-indent: 29px;
+	display: inline-block;
+}
+.SiteInfo
+{
+	width: 100%;
+	background-color: #1f1f1f;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+.SiteInfoContainer
+{
+	max-width: 1200px;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	margin: 0 auto;
+}
+.SiteInfoBox
+{
+	width: 50%;
+}
+.SiteInfoContentArea
+{
+	width: 100%;
+}
+.SiteInfoContent
+{
+	color: #6d6d6d;
+
+}
+.SiteInfoContent span 
+{
+	font-family: "Open Sans",'Trebuchet MS', Helvetica, sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	font-style: normal;
+	transition: all .3s ease-in-out;
+	font-size: 14px;
+	cursor: pointer;
+}
+.InfoBoxSpan:hover 
+{
+	color: #f7b71e;
+}
+.InfoBoxSpan 
+{
+	color: rgba(255, 255, 255, 0.75);
+}
+.InfoBoxListArea
+{
+	width: 100%;
+}
+.InfoBoxList ul li 
+{
+	list-style: none;
+	color: rgba(255, 255, 255, 0.75);
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	transition: all .3s ease-in-out;
+}
+.FirstLi
+{
+	padding-left: 0px !important;
+}
+
+.InfoBoxList ul li span:hover 
+{
+	color: #f7b71e;
+}
+.SiteIconArea
+{
+	width: 90%;
+	display: flex;
+	justify-content: flex-end;
+}
+.Logo img 
+{
+	max-width: 100%;
+	height: auto;
+}

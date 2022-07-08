@@ -1,0 +1,861 @@
+@media only screen and (min-width:500px) {
+  .InformationContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .TopbarRight {
+    margin-bottom: 15px;
+  }
+  .BorderSpan
+  {
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  .ImageFirstResponse
+  {
+    right: 297px;
+    top: 31px;
+    left: 0px;
+  }
+  .ImageSliderPosition
+  {
+    top: 150%;
+    margin: 0px;
+    transform: translate(0%, 0%);
+  }
+  .PositionSpan {
+    margin: -1px 11px;
+  }
+  .border
+  {
+    border: none;
+  }
+  .ResponsiveSpanArea
+  {
+    margin: 0px;
+  }
+  .ResponsiveBorder
+  {
+    display: inline-block !important;
+    margin: 0px 22px;
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+    padding: 0px 0px 0px 0px !important;
+  }
+  .SecondBorder
+  {
+    padding: 0px 0px 0px 6px !important;
+    display: inline-block !important;
+    margin: 10px 36px !important;
+  }
+
+  .repsonse
+  {
+    padding: 2px 2px;
+    margin-top: 0 !important;
+  }
+  .specialspecial
+  {
+    margin: 10px 4px !important;
+  }
+  .repsonseText
+  {
+    margin-top: 6px;
+    margin-bottom: 9px;
+  }
+  .ImageRight {
+    left: 245px;
+    top: 41px;
+    right: 0px;
+  }
+  .speicalResponse
+  {
+    padding: 0px ;
+  }
+  .SpanText
+  {
+    font-size: 9px;
+    line-height: 0px;
+  }
+  .SpanText br
+  {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .Minitext
+  {
+    font-size: 19px;
+    margin: 5px;
+  }
+  .MiniParagraph
+  {
+    font-size: 12px;
+  }
+  .ImageMultipleContainer
+  {
+    margin-top: 10px;
+  }
+  .second {
+    margin-left: 5px;
+  }
+  .FirstButton
+  {
+    padding: 6px 12px;
+  }
+  .ImageSliderContentCenter
+  {
+    padding-top: 30px;
+  }
+  .Responsive
+  {
+    margin-top: -9px !important;
+  }
+  .Header ul li 
+  {
+    display: none;
+  }
+  .IconsBox
+  {
+    display: none;
+  }
+  .SliderImageShow
+  {
+  }
+  .sticky
+  {
+    position: relative;
+  }
+  .HeaderLogo
+  {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .TopbarContainer
+  {
+    flex-direction: column;
+  }
+  .InformationLeft
+  {
+    width: 100%;
+  }
+  .InformationImageGallery
+  {
+    flex-direction: column;
+  }
+  .InformationImage
+  {
+    width: 96%;
+    margin: 10px;
+  }
+  .InformationImage:nth-child(2) {
+    margin: 10px;
+  }
+  .InformationContent
+  {
+    width: 95%;
+  }
+  .InformationContent p {
+    margin-left:13px;
+  }
+  .InformationRight
+  {
+    width: 95%;
+    margin-left: 10px;
+  }
+  .InfoBox
+  {
+    width: 90%;
+    align-items: center;
+  }
+  .IconBox {
+    width: 36%;
+    height: 100px;
+  }
+  .PortfolyoBox
+  {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .PortfolyoContainer
+  {
+    flex-direction: column;
+  }
+  .MiniTextContainer
+  {
+    flex-direction: column;
+  }
+  .PortfolyoButton
+  {
+    width: 40%;
+    
+  }
+  .ButtonText span
+  {
+    font-size: 2.4vw;
+  }
+  .AdvertisingContainer
+  {
+    flex-direction: column;
+  }
+  .AdversitingBox
+  {
+    width: 100%;
+  }
+  .NumberInformationContainer
+  {
+    flex-direction: column;
+  }
+
+  .NumberInformationBox
+  {
+
+    margin-top: 0px;
+  }
+  .NumberInformationBox:nth-child(1)
+  {
+    margin-top: 50px;
+  }
+  .spanfor {
+    font-size: 50px;
+  }
+  .SpanTitle
+  {
+    font-size: 14px;
+  }
+  .WhatWeDoContentContainer
+  {
+    flex-direction: column;
+  }
+  .WeDoInfoArea
+  {
+    width: 92%;
+    margin-right: 0px;
+  }
+  .WeDoContentBox
+  {
+   margin: 30px 20px 50px;
+   width: 90%;
+ }
+ .WeDoContentBox:nth-child(2), .WeDoContentBox:nth-child(4)
+ {
+  margin: 30px 19px 50px;
+}
+.WeDoContentParagprah
+{
+  width: 80%;
+}
+ActiveButton
+{
+  width: 89%;
+  margin: 10px 25px;
+}
+.WeDoMiniBoxArea
+{
+  margin: 30px auto;
+  width: 94%;
+  flex-direction: column;
+}
+.WeDoMiniBoxContent
+{
+  margin-right: 0px;
+  width: 100%;
+}
+.WeDoMiniImageBox
+{
+  width: 100%;
+
+}
+.BigContentContainer
+{
+  flex-direction: column;
+}
+.BigContent-col-sm-6 {
+  width: 100%;
+}
+.BigContent-col-sm-6:nth-child(2) {
+  margin-top: 50px;
+  margin-left: 0px;
+}
+.BigContent {
+  margin: auto;
+  width: 90%;
+  text-align: justify;
+}
+.WeDoBigContentBox h4
+{
+  margin: 15px 24px;
+}
+.WeDoLastDiv {
+  width: 90%;
+  margin: 50px  auto;
+}
+.ParallaxTitle h2
+{
+  text-align: center;
+  font-size: 29px;
+  line-height: 45px;
+  font-family: Arimo;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.MiniTextButton
+{
+  width: 38%;
+}
+.MiniText span
+{
+  font-size: 2.5vw;
+}
+.MainArea
+{
+  margin-bottom: 0px;
+}
+.SiteEndArea {
+  position: relative;
+  width: 100%;
+}
+.TeamsParagraph
+{
+  width: 100%;
+}
+.WeDoTextContent {
+  width: 90%;
+  margin: auto;
+}
+.ProjectsTitle {
+  margin-bottom: 15px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.InformationTitle
+{
+  margin-left: 10px;
+  width: 98%;
+}
+
+.TopbarSocialBox:nth-child(1) {
+  margin-left: -4px;
+}
+.minResponse {
+  margin: -10px;
+}
+.lastminiResponse
+{
+  padding: 5px 2px;
+  margin-top: -15px;
+}
+.SiteInfoContainer
+{
+  flex-direction: column;
+}
+.FooterContainer
+{
+  flex-direction: column;
+}
+.FooterBox {
+  width: 89%;
+}
+.SiteInfoContainer
+{
+  align-items: inherit;
+}
+.SiteInfoBox
+{
+  margin-left: 25px;
+}
+.SiteInfoBox:nth-child(2)
+{
+  margin: 25px 15px;
+}
+.sticky
+{
+  position: relative;
+}
+.SliderImageShow 
+{
+  height: 225px;
+}
+
+
+}
+/* -------- 768px Tablets Responsive Design ---------- */
+
+@media only screen and (min-width:800px) {
+  .SiteEndArea {
+    position: relative;
+    width: 100%;
+  }
+  .ImageSliderContentCenter
+  {
+    grid-gap: 4px;
+  }
+  .TopbarRight {
+    margin-bottom: 0px;
+  }
+
+  .border
+  {
+    border-width: 1px 0px 1px 0px;
+    border-color: rgb(255,255,255);
+    border-style: solid;
+  }
+
+  .ImageFirstResponse {
+    right: 485px;
+    top: 31px;
+    left: 0px;
+  }
+  .PositionSpan {
+    margin: 40px 11px;
+  }
+  .ImageRight {
+    left: 390px;
+    top: 41px;
+    right: 0px;
+  }
+  .BorderSpan {
+    font-size: 27px;
+    padding-left: 5px;
+  }
+
+  .SpanSpan
+  {
+    margin: 10px 16px;
+  }
+
+  .PositionResponse
+  {
+    margin: 10px 6px;
+  }
+  .LastSpecial
+  {
+    margin: -5px -5px;
+  }
+  .PositionSpanRelax {
+    margin: 20px 11px;
+  }
+  .BorderResponse
+  {
+    font-size: 25px;
+  }
+  .different
+  {
+    top: 360%;
+  }
+  .space 
+  {
+    padding-top: 80px;
+  }
+  .SpanText {
+    font-size: 12px;
+    line-height: 0px;
+  }
+  .ImageSliderPosition {
+    top: 250%;
+    margin: 0px;
+    transform: translate(0%, 0%);
+  }
+  .sticky
+  {
+    position: fixed;
+  }
+  .MainArea
+  {
+    margin-bottom: 0;
+  }
+  .FooterContainer
+  {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .FooterBox {
+    width: 40%;
+    margin-left: 15px;
+  }
+  .TopbarSocial {
+    margin-left: -15px;
+  }
+  .TopbarLeft {
+    margin-left: 15px;
+  }
+  .WhatWeDoContentContainer
+  {
+    flex-direction: column;
+  }
+  .WeDoInfoArea {
+    width: 90%;
+    margin-left: 50px;
+  }
+  .WeDoLastDiv {
+    width: 80%;
+    margin: 50px 50px;
+  }
+  .PortfolyoContainer
+  {
+    max-width: 770px;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .PortfolyoBox
+  {
+    width: 46%;
+  }
+  .PortfolyoBox:nth-child(3) {
+    margin-top: 0px;
+  }
+  .PortfolyoButton
+  {
+    font-size: 13px;
+    width: 22%;
+  }
+  .MiniText span
+  {
+    font-size: 13px;
+  }
+  .MiniTextContainer
+  {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 770px;
+    margin-bottom: 20px;
+  }
+  .MiniTextButton
+  {
+    width: 24%;
+  }
+  .AdversitingList li
+  {
+    font-size: 12px;
+  }
+  .AdversitingButton
+  {
+    font-size: 14px;
+    width: 74%;
+  }
+  .InformationLeft {
+    width: 45%;
+    margin-left: 20px;
+  }
+  .InformationRight {
+    width: 50%;
+    margin-left: 0px;
+  }
+  .InfoBox {
+    width: 94%;
+  }
+  .IconBox
+  {
+    width: 38%;
+  }
+  .TopbarContainer
+  {
+    flex-direction: row;
+  }
+
+  .Header ul li 
+  {
+    display: none;
+  }
+  .IconsBox
+  {
+    display: none;
+  }
+  .HeaderLogo
+  {
+    width: 40%;
+  }
+  .SliderImageShow 
+  {
+    height: 325px;
+  }
+}
+/* ----PC Responsive Design ----  */
+@media only screen and (min-width:1200px) {
+  .InformationContainer {
+    flex-direction: row;
+  }
+  .Icons {
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .IconsBox
+  {
+    display: inline-block;
+  }
+  .Header ul li {
+    display: inline-block;
+  }
+  .space {
+    padding-top: 0px; 
+  }
+  .ImageSliderContentCenter
+  {
+    padding-top: 10%;
+  }
+  .border {
+    border-width: 1px 0px 1px 0px;
+    border-color: rgb(255,255,255);
+    border-style: solid;
+  }
+  .BorderSpan {
+    font-size: 66px;
+    padding: 5px;
+  }
+  .Minitext {
+    font-size: 45px;
+    margin: 15px;
+  }
+
+  .MiniParagraph {
+    font-size: 28px;
+  }
+
+  .repsonseText {
+    margin-top: 0px;
+    margin-bottom:0px;
+  }
+
+  .ImageMultipleContainer {
+   margin-top: 20px;
+ }
+
+ .FirstButton {
+  padding: 15px 30px;
+}
+
+.second {
+  margin-left: 20px;
+
+}
+
+.ImageRight {
+  position: absolute;
+  right: 97px;
+  top: 1px;
+  left: 530px;
+}
+.ImageFirstResponse {
+  left: 6px;
+  top: 1px;
+  right: 813px;
+}
+
+.SpanSpan {
+  margin: 10px 18px !important;
+}
+
+.ImageSliderPosition
+{
+  top: 50%;
+}
+
+.PositionSpan {
+  margin: 20px 11px;
+}
+.ResponsiveSpanArea {
+  margin-bottom: 20px;
+}
+
+.SpanText {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.HeaderLogo
+{
+  width: 20%;
+}
+
+.IconBox
+{
+  width: 25%;
+  height: 120px;
+}
+.InfoBox
+{
+  width: 100%;
+}
+.InformationLeft {
+  width: 50%;
+}
+.InformationRight {
+  width: 50%;
+  margin-left: 40px;
+}
+.InformationImageGallery
+{
+  flex-direction: row;
+}
+.PortfolyoContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.PortfolyoBox {
+  width: 33.3%;
+  margin: 30px 15px 20px;
+  margin-bottom: 30px;
+}
+.PortfolyoContainer {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.PortfolyoBox:nth-child(3) {
+  margin-top: 30px;
+}
+.PortfolyoButton {
+  font-size: 1vw;
+  width: 18%;
+}
+.ButtonText span
+{
+  font-size: 14px;
+}
+.MiniTextContainer
+{
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.MiniTextButton {
+  width: 17%;
+}
+.AdvertisingContainer
+{
+  flex-direction: row;
+}
+.AdversitingButton {
+  width: 60%;
+}
+.NumberInformationContainer
+{
+  flex-direction: row;
+}
+.NumberInformationBox:nth-child(1)
+{
+  margin-top: 80px;
+}
+.NumberInformationBox
+{
+  margin-top: 80px;
+}
+.WeDoInfoArea {
+  width: 66.66666667%;
+  margin-right: 30px;
+  margin-left: 21px;
+}
+.WeDoLastDiv {
+  width: 33.33333333%;
+  margin: 0;
+}
+.WhatWeDoContentContainer
+{
+  flex-direction: row;
+}
+.WeDoTextContent {
+  width: 100%;
+  margin: 0;
+}
+
+.WeDoContentBox {
+  margin: 30px auto 0px;
+  width: 47%;
+}
+.WeDoContentBox:nth-child(2), .WeDoContentBox:nth-child(4) {
+  margin-left: 30px;
+  margin: 30px 22px 0px;
+}
+.WeDoContentParagprah
+{
+  width: 100%;
+}
+.FooterContainer
+{
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.FooterBox {
+  width: 25%;
+
+}
+.SiteEndArea
+{
+  position: fixed;
+}
+
+.MainArea
+{
+  margin-bottom: 480px;
+}
+
+.SiteInfoContainer
+{
+  align-items: center;
+  flex-direction: row;
+}
+
+.SiteInfoBox:nth-child(2)
+{
+  margin: 0;
+}
+.SliderImageShow 
+{
+  height: 465px;
+}
+
+.WeDoMiniBoxArea
+{
+  width: 100%;
+  flex-direction: row;
+  margin: 0;
+}
+
+.BigContent
+{
+  width: 100%;
+}
+
+.BigContentContainer
+{
+  flex-direction: row;
+}
+
+.BigContent-col-sm-6
+{
+  width: 50%;
+}
+
+.BigContent-col-sm-6:nth-child(2)
+{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.WeDoMiniBoxContent
+{
+  width: 33.33333333%;
+  margin-right: 30px;
+}
+
+.WeDoMiniImageBox {
+  width: 66.66666667%;
+}
+
+.WeDoBigContentBox h4 {
+  margin: 15px auto;
+}
+}
+
